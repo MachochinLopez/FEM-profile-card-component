@@ -2,6 +2,8 @@
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
+Demo at: https://fem-profile-card-component-bice.vercel.app/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
