@@ -25,6 +25,8 @@ $card-header-min-height: 19.5rem;
   &__profile-picture {
     border-radius: 50%;
     max-width: 10rem;
+    width: 10rem;
+    object-fit: cover;
     position: absolute;
     top: $card-banner-max-height;
     left: 50%;

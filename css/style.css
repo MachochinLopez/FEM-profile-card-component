@@ -34,6 +34,16 @@ body {
   letter-spacing: 2px;
 }
 
+@media (min-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+}
 .profile-card {
   background-color: white;
   border-radius: 1.5rem;
@@ -56,6 +66,8 @@ body {
 .profile-card__profile-picture {
   border-radius: 50%;
   max-width: 10rem;
+  width: 10rem;
+  object-fit: cover;
   position: absolute;
   top: 14rem;
   left: 50%;
