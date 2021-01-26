@@ -11,7 +11,8 @@ body {
   background-color: $color-primary;
   background-image: url("../../images/bg-pattern-top.svg"),
     url("../../images/bg-pattern-bottom.svg");
-  background-position: calc(50% - 450px) calc(50% - 450px),
-    calc(50% + 450px) calc(50% + 450px);
+  background-position: calc(50% - 50rem) calc(50% - 45rem),
+    calc(50% + 50rem) calc(50% + 50rem);
+  background-size: 100rem;
   background-repeat: no-repeat;
 }

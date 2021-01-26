@@ -35,6 +35,10 @@ body {
     color: $color-secondary-light;
   }
 
+  &__location {
+    font-size: 1.4rem;
+  }
+
   &__indicator-description {
     font-size: 1rem;
     letter-spacing: 2px;

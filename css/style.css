@@ -29,6 +29,9 @@ body {
   font-weight: 400;
   color: #6a6f81;
 }
+.profile-card__location {
+  font-size: 1.4rem;
+}
 .profile-card__indicator-description {
   font-size: 1rem;
   letter-spacing: 2px;
@@ -55,11 +58,11 @@ body {
 }
 .profile-card__header {
   position: relative;
-  min-height: 19.5rem;
+  min-height: 18.5rem;
 }
 .profile-card__banner {
-  max-height: 14rem;
-  min-height: 14rem;
+  max-height: 13rem;
+  min-height: 13rem;
   object-fit: cover;
   width: 100%;
 }
@@ -69,7 +72,7 @@ body {
   width: 10rem;
   object-fit: cover;
   position: absolute;
-  top: 14rem;
+  top: 13rem;
   left: 50%;
   transform: translate(-50%, -50%);
   border: 0.5rem solid white;
@@ -80,7 +83,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 2rem;
+  padding: 3rem;
   border-bottom: 1px solid rgba(150, 150, 150, 0.2);
 }
 .profile-card__name {
@@ -98,6 +101,7 @@ body {
   align-items: center;
   flex-direction: row;
   padding: 2rem;
+  padding-top: 3rem;
 }
 .profile-card__indicator-column {
   display: flex;
@@ -120,7 +124,8 @@ body {
   overflow: hidden;
   background-color: #19a2ae;
   background-image: url("../../images/bg-pattern-top.svg"), url("../../images/bg-pattern-bottom.svg");
-  background-position: calc(50% - 450px) calc(50% - 450px), calc(50% + 450px) calc(50% + 450px);
+  background-position: calc(50% - 50rem) calc(50% - 45rem), calc(50% + 50rem) calc(50% + 50rem);
+  background-size: 100rem;
   background-repeat: no-repeat;
 }
 
