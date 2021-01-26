@@ -1,9 +1,42 @@
 @font-face {
-  font-family: "Kumbh Sans";
-  src: url("../../fonts/KumbhSans-Regular.ttf"),
-    url("../../fonts/KumbhSans-Bold.ttf");
+  font-family: "KumbhSans";
+  src: url("../../fonts/KumbhSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: "KumbhSans";
+  src: url("../../fonts/KumbhSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+html,
 body {
-  font-family: "Kumbh Sans";
+  font-family: "KumbhSans";
+  font-size: 10px;
+}
+
+.profile-card {
+  font-size: 1.2rem;
+  color: $color-neutral;
+
+  &__name,
+  &__indicator-number {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: $color-secondary-dark;
+  }
+
+  &__age,
+  &__location {
+    font-weight: 400;
+    color: $color-secondary-light;
+  }
+
+  &__indicator-description {
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
 }

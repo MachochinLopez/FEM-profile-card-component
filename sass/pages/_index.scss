@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  min-height: 100vh;
+  padding: 0;
+  overflow: hidden;
+
+  // Background
+  background-color: $color-primary;
+  background-image: url("../../images/bg-pattern-top.svg"),
+    url("../../images/bg-pattern-bottom.svg");
+  background-position: calc(50% - 45rem) calc(50% - 50rem),
+    calc(50% + 48rem) calc(50% + 50rem);
+  background-repeat: no-repeat;
+}
