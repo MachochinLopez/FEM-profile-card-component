@@ -2,7 +2,7 @@
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
-Demo at: https://fem-profile-card-component-git-master.machochinlopez.vercel.app/
+Demo at: https://fem-profile-card-component-bice.vercel.app/
 
 ## Welcome! 👋
 
