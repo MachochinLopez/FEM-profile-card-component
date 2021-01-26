@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("../../fonts/KumbhSans-Regular.ttf"), url("../../fonts/KumbhSans-Bold.ttf");
+}
+body {
+  font-family: "Kumbh Sans";
+}
+
+/*# sourceMappingURL=style.css.map */
